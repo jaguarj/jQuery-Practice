@@ -1,0 +1,19 @@
+{
+  "name": "jquery-practice",
+  "version": "1.0.0",
+  "description": "jquery practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaguarj/jQuery-Practice.git"
+  },
+  "author": "Josh Seipel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaguarj/jQuery-Practice/issues"
+  },
+  "homepage": "https://github.com/jaguarj/jQuery-Practice#readme"
+}
