@@ -2,23 +2,84 @@ html, body {
 	margin: 0;
 }
 
+/*==== First box and toggle ====*/
+
 button {
 	height: 50px;
 	width: 100vw;
 	boder: none;
 	padding: 10px;
 	font-size: 20px;
+	cursor: pointer;
 }
 
 #box1 {
 	width: 25vw;
 	height: 25vh;
-	height: ;
 	background: red;
+	text-align: center;
+	font-size: 2rem;
 }
 
 .box1 {
 	background: red;
 	width: 100vw;
 	height: 100vh;
+}
+
+/*==== Second Group of Boxes ====*/
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.box {
+	width: 25vw;
+	height: 25vh;
+	background: red;
+	border: 1px solid black;
+}
+
+#box2 {
+
+}
+
+.stretch {
+	width: 100%;
+	background: lightblue;
+
+}
+
+#box3 {
+
+}
+
+#box4 {
+
+}
+
+#box5 {
+
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.iterate {
+	border: 1px solid black;
+	color: black;
+	font-size: 2rem;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	width: 100vw;
+	height: 25vh;
+}
+
+.change {
+	background: linear-gradient(to bottom right, lightblue, tomato);
 }
